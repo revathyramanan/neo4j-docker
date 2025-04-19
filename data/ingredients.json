@@ -1,0 +1,57 @@
+[
+    {
+        "ingredient": "amaranth greens",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/168385/nutrients",
+        "category": "Vegetables and Vegetable Products"
+    },
+    {
+        "ingredient": "beet greens",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/170375/nutrients",
+        "category": "Vegetables and Vegetable Products"
+    },
+    {
+        "ingredient": "turnip greens",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/170061/nutrients",
+        "category": "Vegetables and Vegetable Products"
+    },
+    {
+        "ingredient": "kale",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/168421/nutrients",
+        "category": "Vegetables and Vegetable Products"
+    },
+    {
+        "ingredient": "sorrel",
+        "USFDA": "NA",
+        "category": "NA"
+    },
+    {
+        "ingredient": "tofu",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/174291/nutrients",
+        "category": "Legumes and Legume Products"
+    },
+    {
+        "ingredient": "turkey",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/2514747/nutrients",
+        "category": "Poultry Products"
+    },
+    {
+        "ingredient": "potato",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/2346403/nutrients",
+        "category": "Vegetables and Vegetable Products"
+    },
+    {
+        "ingredient": "seitan",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/2709163/nutrients",
+        "category": "Soy and meat-alternative products"
+    },
+    {
+        "ingredient": "spinach",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/1999633/nutrients",
+        "category": "Vegetables and Vegetable Products"
+    },
+    {
+        "ingredient": "chicken",
+        "USFDA": "https://fdc.nal.usda.gov/food-details/2646170/nutrients",
+        "category": "Poultry Products"
+    }
+]
