@@ -39,7 +39,16 @@ INFO  Started.
 ### 3. Load sample graph
 The `data` folder consists of all the data you may have in any formats - .json, images, .csv and etc. We need to create an intermediate format that will allow us to load data into neo4j. You can also load .json directly to neo4j. The following steps will demonstrate loading from csv as it allows to load data in batches and in parallel. This is a good practice if you expect your graph to scale. <br>
 
-The use-case we have is ingredient subsitution knowledge graph. The `data` folder consists of data on ingredients, substitution pairs and images. The scripts that convert this raw data into intermediate csv format to batch load into neo4j is present in `scripts` folder. 
+The use-case we have is ingredient subsitution knowledge graph. We will be utilizing a subset of the dataset as shown in Figure below The `data` folder consists of data on ingredients, substitution pairs and images. The scripts that convert this raw data into intermediate csv format to batch load into neo4j is present in `scripts` folder. 
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <figure style='display: table'>
+  <img src='documentation/ing_sub_graph.svg'>
+  <p>
+    Figure 1: Subset of sample knowledge graph for ingredient substitution
+  </p>
+</figure>
+</div>
 
 * Run the file `python neo4j_csv.py`. This will read the files from `data` folder and create intermediate csv files and saves in `neo4j_raw_data` folder.
 
